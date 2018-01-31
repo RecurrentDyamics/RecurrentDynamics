@@ -1,0 +1,14 @@
+# files
+stat_const.py
+*.pyc
+*.sw*
+*.pkl
+*.npy
+
+#foloders
+data/
+raw/
+json/
+logs/
+result/
+saved_weights/

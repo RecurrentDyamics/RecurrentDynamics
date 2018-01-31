@@ -23,3 +23,9 @@ See HealthCare/data for samples.
 The code for three experiments are almost the same. We provide the code for the airquality experiment. Users can use our model on the other experiments by simply replacing the data file.
 
 See Airquality for details.
+
+To run the model with sample input:
+
+```
+python main.py --model bi_impute --epochs 1000 --train_file ./data/train --eval_file ./data/eval
+```
